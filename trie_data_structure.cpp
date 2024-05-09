@@ -1,8 +1,9 @@
-//Program to implement Trie ADT using list
-//This trie contains only lowercase alphabets(a-z)
-//Vaishnavi - insertion
-//Rithani - search
-//Pradeepaa - deletion
+/*Program to implement Trie ADT using list
+This trie contains only lowercase alphabets(a-z)
+Vaishnavi - insertion
+Rithani - search
+Pradeepaa - deletion
+    */
 #include <stdio.h>
 #include <stdlib.h>
 #include<string.h>
