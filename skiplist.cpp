@@ -1,3 +1,6 @@
+/*
+Code made by Shri Varshini and Shreya Vengatesh
+*/
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
