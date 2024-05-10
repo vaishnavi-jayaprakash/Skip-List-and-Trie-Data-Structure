@@ -123,12 +123,7 @@ Trie::node* Trie::insert(char* word)
     int idx = (int)word[i] - 'a';
     if (temp->children[idx] == NULL)//Segmentation fault resolved by using the previous if condition
     {
-      temp->children[idx] = (node*)calloc(1, sizeof(node));
-      temp->children[idx]->data = word[i];
-      temp->children[idx]->is_end = 0;
-      for (int j = 0; j < N; j++) {
-        temp->children[idx]->children[j] = NULL;
-      }
+      temp->children[idx] = getnode(word[i]);
     }
     temp = temp->children[idx];
   }
