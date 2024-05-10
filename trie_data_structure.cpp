@@ -129,7 +129,7 @@ Trie::node* Trie::insert(char* word)
   }
 
   temp->is_end = 1;
-  return root;
+  return temp;
 }
 //Method to create a newnode
 Trie::node* Trie::getnode(char data)
